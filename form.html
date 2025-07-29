@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add new product</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="logo"> <h1>M.Store</h1></div>
+    </div>
+
+    <section class="form-container">
+    <h3 class="title-add">Add New Product</h3>
+
+    <div class="style-form">
+    <form action="" class="form" >
+    <!-- اسم المنتج -->
+     <div class="form-groub">
+        <label for="name"> name : </label>
+        <input type="text" name="name" id="name" class="name style-button" placeholder="product-name">
+     </div>
+     
+    <!-- سعر المنتج -->
+     <div class="form-groub">
+        <label for="price">  price :</label>
+        <input type="number" name="price" id="price" class="price style-button" placeholder="product-price">
+     </div>
+
+
+         <!-- وصف المنتج  -->
+     <div class="form-groub">
+        <label for="description">description : </label>
+        <input type="text" name="description" id="description" class="description style-button"  placeholder="product-description">
+     </div>
+
+
+         <!-- فئة المنتج -->
+     <div class="form-groub">
+        <label for="category">category : </label>
+        <input type="text" name="category" id="category" class="category style-button" placeholder="product-category">
+     </div>
+
+
+         <!-- رابط الصورة -->
+     <div class="form-groub">
+        <label for="image">image : </label>
+        <input type="text" id="image" name="image" class="image style-button" placeholder="product-image">
+     </div>
+
+     <!-- ارسال و عودة -->
+     <div class="finish">
+        <button type="submit">submit</button>
+       <button> <a href="./index.html" target="_blank">back</a> </button>
+     </div>
+     </form>
+
+     </div>
+     </section>
+     <script src="js/script.js"></script>
+</body>
+</html>
